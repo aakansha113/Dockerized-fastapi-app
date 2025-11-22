@@ -1,33 +1,41 @@
-# dockerized-fastapi-app
- 🚀 FastAPI + Docker Starter
+# Dockerized-fastapi-app
+This is a minimal FastAPI application containerized using Docker.It provides basic JSON API endpoints and can be used as a starting point for web services or microservices.
 
-This is a minimal FastAPI application containerized using Docker.  
-It provides basic JSON API endpoints and can be used as a starting point for web services or microservices.
-Project Structur:
-
+## Project Structure:
 docker-fastapi/
 ├── Dockerfile
 ├── main.py
 ├── requirement.txt
 
-Run with Docker
-
-1. Build the Docker image
--bash
+## 📥 Clone This Repository
+To clone this portfolio on your local system, run:
+```
+git clone https://github.com/aakansha113/dockerized-fastapi-app
+```
+## Docker setup:
+### 1. Build the Docker image
+```
 docker build -t fastapi-docker-app .
-
-2. Build the Docker image
+```
+### 2.Run the Docker image
+```
 docker run -d -p 82:8000 fastapi-docker-app
-
-3. Then open in your browser:
+```
+### 3. Open in your browser:
+```
 http://localhost:82
 http://localhost:82/home
+```
+### Built With
+1-FastAPI
+2-Uvicorn
+3-Docker
 
-Built With
--FastAPI
--Uvicorn
--Docker
+#### This project is open source and free to use.
 
-This project is open source and free to use.
+### ⭐ Show Your Support
+
+#### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
