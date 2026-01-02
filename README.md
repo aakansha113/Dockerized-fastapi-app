@@ -1,12 +1,13 @@
 # Dockerized-fastapi-app
 This is a minimal FastAPI application containerized using Docker.It provides basic JSON API endpoints and can be used as a starting point for web services or microservices.
 
-## Project Structure:
+##  📁 Project Structure
+```
 docker-fastapi/
 ├── Dockerfile
 ├── main.py
 ├── requirement.txt
-
+```
 ## 📥 Clone This Repository
 To clone this portfolio on your local system, run:
 ```
